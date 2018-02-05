@@ -11,6 +11,3 @@ find_package(KF5Plasma REQUIRED)
 
 # Add installation target ("make install")
 plasma_install_package(plasmoid.org.kde.tutorial)
-
-# add due to new requirements?
-#kcoreaddons_desktop_to_json()

@@ -29,7 +29,7 @@ Item {
         id: message
         Layout.alignment: Qt.AlignCenter
         text: "Hello from Plasma 5!"
-        color: "cyan"
+        color: "peru"
 
       }
     }  
