@@ -5,7 +5,6 @@ Comment=Hello World example plasmoid
 Icon=face-cool
 Type=Service
 
-X-KDE-Library=plasma_applet_tutorial
 X-KDE-ParentApp=
 X-KDE-PluginInfo-Author=Dito
 X-KDE-PluginInfo-Email=bundito@gmail.com

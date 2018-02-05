@@ -20,7 +20,7 @@ Item {
       Image {
         id: popoutImage
         Layout.alignment: Qt.AlignCenter
-        source: "plasma.svg"
+        source: "images/kde.svg"
         sourceSize.width: 100
         sourceSize.height: 100
         }

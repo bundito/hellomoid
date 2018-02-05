@@ -13,7 +13,7 @@ Item {
     //Layout.minimumHeight : plasmoid.formFactor == PlasmaCore.Types.Vertical ? width : 1
 
 
-    source: "face-smile.svg"
+    source: "images/face-smile.svg"
     sourceSize.width: parent.width
     sourceSize.height: parent.height
   }
