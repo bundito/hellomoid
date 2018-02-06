@@ -11,7 +11,8 @@ Item {
 
 	GridLayout {
 		columns: 2
-		width: 400
+		width: 500
+		Layout.fillWidth: true
 
 
 		Label {
