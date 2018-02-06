@@ -10,6 +10,8 @@ Item {
   width: 200
   height: 200
 
+property string displayMessage:    plasmoid.configuration.popupMessage
+property color labelColor:         plasmoid.configuration.messageColor
 
   ColumnLayout {
    
@@ -26,12 +28,14 @@ Item {
         }
   
       Label {
-        id: message
+        id: popout_label
         Layout.alignment: Qt.AlignCenter
-        text: "Hello from Plasma 5!"
-        color: "cyan"
+        text: displayMessage
+        color: labelColor
 
       }
+
+
     }  
   
 } // end 
